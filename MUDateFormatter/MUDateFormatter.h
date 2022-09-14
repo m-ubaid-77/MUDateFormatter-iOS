@@ -7,12 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for TestLib.
-FOUNDATION_EXPORT double TestLibVersionNumber;
+//! Project version number for MUDateFormatter.
+FOUNDATION_EXPORT double MUDateFormatterVersionNumber;
 
-//! Project version string for TestLib.
-FOUNDATION_EXPORT const unsigned char TestLibVersionString[];
+//! Project version string for MUDateFormatter.
+FOUNDATION_EXPORT const unsigned char MUDateFormatterVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TestLib/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <MUDateFormatter/PublicHeader.h>
 
 
