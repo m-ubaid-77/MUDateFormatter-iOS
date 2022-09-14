@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: OutputFramework
-          path: ${{ github.workspace }}/framework_out_universal/MUDateFormatter.xcframework
+          path: ${{ github.workspace }}/framework_out_universal
 #framework_out_universal
 # - name: Test
 #   env:
