@@ -32,7 +32,8 @@ jobs:
           file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
           xcodebuild build-for-testing -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "generic/platform=iOS"
           echo ${GITHUB_WORKSPACE}
-          echo ${ls -A}
+          echo `ls ${GITHUB_WORKSPACE}`
+
       # - name: Test
       #   env:
       #     scheme: ${{ 'default' }}
